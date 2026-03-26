@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Pipeline artifacts (too large / regenerable)
+data/books/
+data/gutenberg_map.db
+data/geocode_cache.json
+data/mock_locations.geojson
+
+# OS
+.DS_Store
+
+# Claude
+.claude/

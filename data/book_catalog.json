@@ -1,0 +1,62 @@
+{
+  "345": {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "file": "345.txt",
+    "gutenberg_id": "345"
+  },
+  "1342": {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "file": "1342.txt",
+    "gutenberg_id": "1342"
+  },
+  "76": {
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "file": "76.txt",
+    "gutenberg_id": "76"
+  },
+  "98": {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "file": "98.txt",
+    "gutenberg_id": "98"
+  },
+  "2701": {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "file": "2701.txt",
+    "gutenberg_id": "2701"
+  },
+  "11": {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "file": "11.txt",
+    "gutenberg_id": "11"
+  },
+  "1661": {
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "file": "1661.txt",
+    "gutenberg_id": "1661"
+  },
+  "84": {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "file": "84.txt",
+    "gutenberg_id": "84"
+  },
+  "174": {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "file": "174.txt",
+    "gutenberg_id": "174"
+  },
+  "2148": {
+    "title": "The Works of Edgar Allan Poe, Vol 2",
+    "author": "Edgar Allan Poe",
+    "file": "2148.txt",
+    "gutenberg_id": "2148"
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gutenberg Map — Literary Geography</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="sidebar">
+    <h1>Gutenberg Map</h1>
+    <p class="subtitle">Explore the geography of literature</p>
+
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search places, books, authors..." />
+      <div id="search-results" class="hidden"></div>
+    </div>
+
+    <div id="action-buttons">
+      <button id="random-btn">Random Passage</button>
+      <button id="heatmap-toggle">Show Heatmap</button>
+    </div>
+
+    <div id="relevance-filter">
+      <div class="relevance-header">
+        <h3>Relevance</h3>
+        <span id="relevance-label">Key settings</span>
+      </div>
+      <input type="range" id="relevance-slider" min="0" max="100" value="50" />
+      <div class="relevance-range">
+        <span>All mentions</span>
+        <span>Key settings only</span>
+      </div>
+    </div>
+
+    <div id="viewport-section">
+      <h3>On Screen</h3>
+      <div id="viewport-locations"></div>
+    </div>
+
+    <div id="journey-controls">
+      <h3>Book Journeys</h3>
+      <select id="journey-select">
+        <option value="">-- Select a book --</option>
+      </select>
+      <div id="journey-info" class="hidden">
+        <button id="play-journey">Play Journey</button>
+        <div id="journey-stops"></div>
+      </div>
+    </div>
+
+    <div id="stats">
+      <h3>Stats</h3>
+      <div id="stats-content"></div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="passage-panel" class="hidden">
+    <button id="close-panel">&times;</button>
+    <div id="passage-content"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
